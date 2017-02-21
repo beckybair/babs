@@ -3,7 +3,6 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
-var header      = require('gulp-header');
 var cleanCSS    = require('gulp-clean-css');
 var rename      = require("gulp-rename");
 var uglify      = require('gulp-uglify');
@@ -73,6 +72,11 @@ gulp.task('copy', function() {
             '!node_modules/font-awesome/*.json'
         ])
         .pipe(gulp.dest('app/lib/font-awesome'));
+
+    gulp.src([
+        'app/**', '!app/scss/**'
+      ])
+      .pipe(gulp.dest('docs'));
 });
 
 // Run everything
