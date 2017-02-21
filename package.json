@@ -1,0 +1,27 @@
+{
+  "name": "babs",
+  "title": "BABs",
+  "version": "1.0.0",
+  "description": "BABs site with npm, gulp, sass_scss, browser-sync & bootstrap 4",
+  "author": "BeckyBair",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^3.0.0",
+    "tether": "^1.3.8"
+  }
+}
