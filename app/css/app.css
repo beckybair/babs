@@ -123,8 +123,9 @@ h6 {
     text-transform: uppercase;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    padding: 13px;
-    right: 0; }
+    padding: 13px; }
+  #mainNav .navbar-toggler-right {
+    right: -9rem; }
   #mainNav .container {
     padding: 0; }
     #mainNav .container .navbar-brand {
@@ -434,6 +435,7 @@ section#subscribe {
     font-size: 1.75rem; }
   section#subscribe input[type="email"] {
     padding: 5px 0;
+    margin: 10px auto;
     width: 300px;
     border-radius: 5px; }
     section#subscribe input[type="email"]:focus, section#subscribe input[type="email"]:active {

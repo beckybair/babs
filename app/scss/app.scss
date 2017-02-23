@@ -68,7 +68,9 @@ h6 {
     text-transform: uppercase;
     @include heading-font;
     padding: 13px;
-    right: 0;
+  }
+  .navbar-toggler-right {
+    right: -9rem;
   }
   .container {
     padding: 0;
@@ -485,6 +487,7 @@ section#subscribe {
   }
   input[type="email"] {
     padding: 5px 0;
+    margin: 10px auto;
     width: 300px;
     border-radius: 5px;
     &:focus,
