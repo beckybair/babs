@@ -69,9 +69,6 @@ h6 {
     @include heading-font;
     padding: 13px;
   }
-  .navbar-toggler-right {
-    right: -9rem;
-  }
   .container {
     padding: 0;
     .navbar-brand {
@@ -102,7 +99,16 @@ h6 {
     }
   }
 }
-
+@media(max-width:440px) {
+  .navbar-toggler-right {
+    right: -6rem;
+  }
+}
+@media(max-width:575px) {
+  .navbar-toggler-right {
+    right: -9rem;
+  }
+}
 @media(min-width:992px) {
   #mainNav {
     background-color: transparent;

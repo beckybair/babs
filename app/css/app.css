@@ -124,8 +124,6 @@ h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     padding: 13px; }
-  #mainNav .navbar-toggler-right {
-    right: -9rem; }
   #mainNav .container {
     padding: 0; }
     #mainNav .container .navbar-brand {
@@ -143,6 +141,14 @@ h6 {
       color: white; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
         color: #89CBC9; }
+
+@media (max-width: 440px) {
+  .navbar-toggler-right {
+    right: -6rem; } }
+
+@media (max-width: 575px) {
+  .navbar-toggler-right {
+    right: -9rem; } }
 
 @media (min-width: 992px) {
   #mainNav {
