@@ -73,7 +73,12 @@ h6 {
     padding: 0;
     .navbar-brand {
       color: $theme-primary;
-      @include script-font;
+      //@include script-font;
+      width: 350px;
+      height: 75px;
+      margin-right: 0;
+      background: url(../img/bbhorselogo.png) no-repeat 0 0;
+      background-size: 250px;
       &:hover,
       &:focus,
       &:active,
@@ -99,16 +104,24 @@ h6 {
     }
   }
 }
-@media(max-width:440px) {
-  .navbar-toggler-right {
-    right: -6rem;
-  }
-}
 @media(max-width:575px) {
   .navbar-toggler-right {
-    right: -9rem;
+    right: -7.75rem;
+  }
+  #mainNav {
+    .container {
+      .navbar-brand {
+        padding: 12px 0;
+        width: 125px;
+        background-size: 125px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: inherit;
+      }
+    }
   }
 }
+
 @media(min-width:992px) {
   #mainNav {
     background-color: transparent;
@@ -136,6 +149,10 @@ h6 {
       .navbar-brand {
         padding: 12px 0;
         font-size: 1.25em;
+        background-size: 175px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: inherit;
       }
     }
   }
@@ -224,6 +241,7 @@ section {
   margin: 15px 0;
   text-transform: none;
 }
+
 
 // Portfolio Section ============================
 #portfolio {
@@ -478,6 +496,7 @@ section {
     }
   }
 }
+
 
 // Subscribe Section ============================
 section#subscribe {

@@ -128,7 +128,11 @@ h6 {
     padding: 0; }
     #mainNav .container .navbar-brand {
       color: #89CBC9;
-      font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
+      width: 350px;
+      height: 75px;
+      margin-right: 0;
+      background: url(../img/bbhorselogo.png) no-repeat 0 0;
+      background-size: 250px; }
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
         color: #66bbb9; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
@@ -142,13 +146,16 @@ h6 {
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
         color: #89CBC9; }
 
-@media (max-width: 440px) {
-  .navbar-toggler-right {
-    right: -6rem; } }
-
 @media (max-width: 575px) {
   .navbar-toggler-right {
-    right: -9rem; } }
+    right: -7.75rem; }
+  #mainNav .container .navbar-brand {
+    padding: 12px 0;
+    width: 125px;
+    background-size: 125px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: inherit; } }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -170,7 +177,11 @@ h6 {
       padding: 0; }
       #mainNav.navbar-shrink .navbar-brand {
         padding: 12px 0;
-        font-size: 1.25em; } }
+        font-size: 1.25em;
+        background-size: 175px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: inherit; } }
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header-bg.jpg");
